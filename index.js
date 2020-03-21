@@ -14,10 +14,46 @@ bot.on('ready', () => {
 bot.on('message', msg => {
 if (msg.content.startsWith(delimiter)) {
     switch(msg.content.toLowerCase().substring(1)){
+      case('a'):
+      case('am'):
+      case('addmeeting'):
+      break;
+
+      case('art'):
+      case('addticket'):
+
+      break;
+      case('crt'):
+      case('check'):
+      case('checktickets'):
+
+      break;
+
       case('h'):
       case('help'):
           msg.channel.send(texts.helpText);
       break;
+
+      case('l'):
+      case('leaderboard'):
+      break;
+
+      case('n'):
+      case('next'):
+      case('nextmeeting'):
+
+      break;
+      case('s'):
+      case('set'):
+      case('setalert'):
+
+      break;
+      case('p'):
+      case('poll'):
+      
+
+      break;
+
     };
   }
 });
