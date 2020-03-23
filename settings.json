@@ -1,4 +1,5 @@
 {
   "alerts": "1111",
-  "alertText": "ABC Meeting alerts have been set to 8 4 2 1 day(s) before the next meeting!"
+  "alertText": "ABC Meeting alerts have been set to 8, 4, 2, 1 day(s) before the next meeting!",
+  "currentBook": "paradise lost"
 }
