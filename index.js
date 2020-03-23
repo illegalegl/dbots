@@ -27,11 +27,14 @@ bot.on('message', msg => {
     }
     try {
       switch (args[0]) {
+        
         case ('a'):
         case ('am'):
         case ('addmeeting'):
           break;
-
+        case('alerts'):
+        msg.channel.send(settings.alertText);
+        break;
 
         case ('art'):
         case ('addticket'):

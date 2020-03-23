@@ -1,6 +1,6 @@
 {
 
-    "helpText" : "[ addmeeting|add|a ]  ( mm/dd/yy 00:00pm ) , saves a new meeting date and time\n[ addticket|art ] , once per meeting you can use this to gain a free raffle ticket \n[ addticket|art] ( name ) , as the Book Master, use to reward tickets during meetings \n[ check|crt ] , use this to check your current number of raffle tickets \n[ leaderboard|l ] , use this to check the current standings for tickets  \n[ nextmeeting|next|nxt|n ] , returns the date and time of next scheduled meeting \n[ setalert|set|s ] ( 0000 ) , saves the 0000 is a bit string of days (8,4,2,1) \n[ poll|p ] ( # 0 - 11 ) , adds # of random emojis to current post for polling"
+    "helpText" : "[ alerts ] , returns the current alert schedule \n[ addmeeting|add|a ]  ( mm/dd/yy 00:00pm ) , saves a new meeting date and time\n[ addticket|art ] , once per meeting you can use this to gain a free raffle ticket \n[ addticket|art] ( name ) , as the Book Master, use to reward tickets during meetings \n[ check|crt ] , use this to check your current number of raffle tickets \n[ help|h ] , brings up this help menu \n[ leaderboard|l ] , use this to check the current standings for tickets  \n[ nextmeeting|next|nxt|n ] , returns the date and time of next scheduled meeting \n[ setalert|set|s ] ( 0000 ) , saves the 0000 is a bit string of days (8,4,2,1) \n[ poll|p ] ( # 0 - 11 ) , adds # of random emojis to current post for polling"
     ,
     "alertText0" : "ABC Meeting alerts have been set to "
     ,
